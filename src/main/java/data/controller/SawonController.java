@@ -13,4 +13,8 @@ public class SawonController {
     public String list(){
         return "sawon/sawonlist";
     }
+    @GetMapping("/webhook")
+    public String webhook(){
+        return "test";
+    }
 }
